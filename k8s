@@ -17,6 +17,7 @@ sudo ufw allow 10248
 # Enable ufw
 echo "y" | sudo ufw enable
 
+sudo apt install curl
 # Install Docker
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
