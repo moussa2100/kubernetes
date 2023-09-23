@@ -3,9 +3,6 @@
 sudo apt update
 
 
-# Set the hostname
-sudo hostnamectl set-hostname master
-
 sudo apt install ufw
 sudo ufw allow ssh
 sudo ufw allow http
